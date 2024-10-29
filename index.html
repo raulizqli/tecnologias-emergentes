@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú - Pizzería Deliciosa</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #000; /* Fondo negro */
+            margin: 0;
+            padding: 20px;
+            color: #fff; /* Texto blanco para contraste */
+        }
+        h1 {
+            text-align: center;
+            color: #e74c3c;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .menu-item {
+            background-color: #333; /* Fondo oscuro para las tarjetas */
+            margin: 15px 0;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            display: flex;
+            align-items: center;
+            transition: transform 0.2s;
+        }
+        .menu-item:hover {
+            transform: scale(1.02);
+        }
+        .menu-item img {
+            width: 120px;
+            height: auto;
+            border-radius: 10px;
+            margin-right: 20px;
+        }
+        .menu-item h2 {
+            margin: 0;
+            font-size: 1.8em;
+            color: #e74c3c; /* Color de texto de los títulos */
+        }
+        .menu-item p {
+            margin: 5px 0;
+            color: #ccc; /* Color gris claro para descripciones */
+        }
+        .price {
+            font-weight: bold;
+            color: #e74c3c;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Menú - Pizzería Deliciosa</h1>
+
+    <div class="menu-item">
+        <img src="imagenes/marga.jpg" alt="Pizza Margherita">
+        <div>
+            <h2>Pizza Margherita</h2>
+            <p>Salsa de tomate, mozzarella fresca y albahaca.</p>
+            <p class="price">$130.00</p>
+        </div>
+    </div>
+
+    <div class="menu-item">
+        <img src="imagenes/pepe.jpg" alt="Pizza Pepperoni">
+        <div>
+            <h2>Pizza Pepperoni</h2>
+            <p>Deliciosas rodajas de pepperoni sobre mozzarella fundida.</p>
+            <p class="price">$99.00</p>
+        </div>
+    </div>
+
+    <div class="menu-item">
+        <img src="imagenes/cuatroq.jpg" alt="Pizza Cuatro Quesos">
+        <div>
+            <h2>Pizza Cuatro Quesos</h2>
+            <p>Combinación de mozzarella, gorgonzola, parmesano y ricotta.</p>
+            <p class="price">$140.00</p>
+        </div>
+    </div>
+
+    <div class="menu-item">
+        <img src="imagenes/vege.jpg" alt="Pizza Vegetariana">
+        <div>
+            <h2>Pizza Vegetariana</h2>
+            <p>Pimientos, champiñones, cebolla, aceitunas y espinacas.</p>
+            <p class="price">$180.00</p>
+        </div>
+    </div>
+
+    <div class="menu-item">
+        <img src="imagenes/bbq.jpg" alt="Pizza BBQ">
+        <div>
+            <h2>Pizza BBQ</h2>
+            <p>Salsa BBQ, pollo asado y cebolla morada.</p>
+            <p class="price">$160,00</p>
+        </div>
+    </div>
+
+    <div class="menu-item">
+        <img src="imagenes/hawa.jpg" alt="Pizza Hawaiana">
+        <div>
+            <h2>Pizza Hawaiana</h2>
+            <p>Jamón, piña y mozzarella fundida.</p>
+            <p class="price">$145.00</p>
+        </div>
+    </div>
+
+    <div class="menu-item">
+        <img src="imagenes/mexicana.jpg" alt="Pizza Mexicana">
+        <div>
+            <h2>Pizza Mexicana</h2>
+            <p>Carne molida, jalapeños y salsa picante.</p>
+            <p class="price">$160.00</p>
+        </div>
+    </div>
+
+</body>
+</html>
